@@ -78,9 +78,58 @@ The platform supports persistent data storage using:
 
 ## 📂 Project Structure
 
-```## 📁 Project Directory
-
-```
+```text
+hostelconnect2.0/
+├── app/                                       # Next.js App Router (Pages, Layouts & API)
+│   ├── (auth)/login/                          # Unified single login & dual-role registration
+│   ├── api/                                   # Backend REST API route endpoints
+│   │   ├── ai/                                # AI assistant query handler
+│   │   ├── announcements/                     # Announcements CRUD & memory persistence
+│   │   ├── auth/                              # Login, registration & session resolver
+│   │   ├── complaints/                        # Grievances & maintenance tickets
+│   │   ├── leave/                             # Outing & leave pass applications
+│   │   ├── mess/                              # Weekly dining schedule endpoint
+│   │   ├── notifications/                     # Real-time resident alerts
+│   │   ├── parcels/                           # Courier package tracking
+│   │   └── requests/                          # Medical emergency SOS requests
+│   ├── student/                               # Student Resident Portal
+│   │   ├── ai/                                # Dedicated Hostel AI assistant chat
+│   │   ├── complaints/                        # Issue reporting & anonymous mode
+│   │   ├── dashboard/                         # Resident home, circulars & daily mess
+│   │   ├── leave/                             # Outing pass application & history
+│   │   ├── medical/                           # Emergency medical SOS trigger
+│   │   ├── mess/                              # Day-by-day dining menu schedule
+│   │   ├── notifications/                     # Activity & approval alerts
+│   │   ├── parcels/                           # Courier collection tracker
+│   │   └── requests/                          # Student service requests
+│   ├── warden/                                # Warden Operations Console
+│   │   ├── announcements/                     # Broadcast studio (publish, pin, delete)
+│   │   ├── complaints/                        # Maintenance dispatch & resolution
+│   │   ├── dashboard/                         # Overview, SOS alerts & leave action queue
+│   │   ├── leave/                             # 1-click leave approvals & rejections
+│   │   ├── medical/                           # Emergency medical alerts log
+│   │   ├── mess/                              # Weekly dining menu editor
+│   │   ├── parcels/                           # Courier reception & logging desk
+│   │   ├── requests/                          # Service request approvals
+│   │   └── students/                          # Searchable resident registry
+│   ├── globals.css                            # Tailwind CSS v4 & dark mode variant
+│   └── layout.tsx                             # Root layout & zero-flicker theme script
+├── components/                                # Reusable UI Component Library
+│   ├── ai/                                    # ChatWindow, ChatMessage, ChatWidget
+│   ├── auth/                                  # RoleGuard route protection
+│   ├── complaints/                            # ComplaintForm, ComplaintCard, ComplaintStatus
+│   ├── dashboard/                             # StatCard, QuickAction, AnnouncementCard
+│   ├── layout/                                # Navbar, Sidebar, MobileNav
+│   ├── leave/                                 # LeaveForm, LeaveStatus
+│   ├── mess/                                  # MenuCard component
+│   └── ui/                                    # Badge, Button, Card, Input, Modal, ThemeToggle
+├── data/                                      # Persistent Server-Side File Storage
+│   ├── announcements.json                     # Broadcast notices & circulars
+│   └── users.json                             # Registered students & wardens
+├── hooks/                                     # Custom React Hooks (useAuth, useNotifications)
+├── lib/                                       # Core Utilities (announcementsDb, usersDb, supabase, ai)
+├── supabase/                                  # Database schema & initial seed data
+└── types/                                     # TypeScript domain type definitions
 ```
 
 ## ⚙️ Getting Started
