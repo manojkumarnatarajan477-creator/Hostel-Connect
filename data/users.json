@@ -1,0 +1,78 @@
+[
+  {
+    "id": "usr-warden-001",
+    "email": "warden@campus.edu",
+    "full_name": "Dr. K. Raman (Chief Warden)",
+    "room_number": "Warden Office A-G01",
+    "block": "Block A",
+    "role": "WARDEN",
+    "password_hash": "cfc6ae331154c700a5d39f4909b379d92a88ace5de5f37859f3f1c066c9097ad",
+    "created_at": "2026-09-11T09:39:51.796Z"
+  },
+  {
+    "id": "usr-1789119591800-nd68",
+    "email": "test.resident.1789119591326@campus.edu",
+    "full_name": "Ananya Verma",
+    "room_number": "Block B-304",
+    "block": "Block B",
+    "role": "STUDENT",
+    "password_hash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+    "created_at": "2026-09-11T09:39:51.800Z",
+    "updated_at": "2026-09-11T09:39:51.800Z"
+  },
+  {
+    "id": "usr-1789122315936-z74x",
+    "email": "manojkumarnatarajan477@gmail.com",
+    "full_name": "Manoj Kumar",
+    "room_number": "119",
+    "block": "Block A",
+    "role": "STUDENT",
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "created_at": "2026-09-11T10:25:15.936Z",
+    "updated_at": "2026-09-11T10:25:15.936Z"
+  },
+  {
+    "id": "usr-1789122868798-j4qz",
+    "email": "test.resident.1789122868755@campus.edu",
+    "full_name": "Ananya Verma",
+    "room_number": "Block B-304",
+    "block": "Block B",
+    "role": "STUDENT",
+    "password_hash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+    "created_at": "2026-09-11T10:34:28.798Z",
+    "updated_at": "2026-09-11T10:34:28.798Z"
+  },
+  {
+    "id": "usr-1789122890626-7oms",
+    "email": "test.resident.1789122890589@campus.edu",
+    "full_name": "Ananya Verma",
+    "room_number": "Block B-304",
+    "block": "Block B",
+    "role": "STUDENT",
+    "password_hash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+    "created_at": "2026-09-11T10:34:50.626Z",
+    "updated_at": "2026-09-11T10:34:50.626Z"
+  },
+  {
+    "id": "usr-1789122890673-nro4",
+    "email": "test.warden.1789122890656@campus.edu",
+    "full_name": "Dr. A. K. Sundaram",
+    "room_number": "Warden Office Block B-G02",
+    "block": "Block B",
+    "role": "WARDEN",
+    "password_hash": "187cf521950d6c0c736b3929da97eb436c3cfda4712107ca20d64cf026fe4396",
+    "created_at": "2026-09-11T10:34:50.673Z",
+    "updated_at": "2026-09-11T10:34:50.673Z"
+  },
+  {
+    "id": "usr-1789123005947-fevi",
+    "email": "tamilarasan2007@gmail.com",
+    "full_name": "Dr.Tamilarasan",
+    "room_number": "First Floor",
+    "block": "Block A",
+    "role": "WARDEN",
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "created_at": "2026-09-11T10:36:45.947Z",
+    "updated_at": "2026-09-11T10:36:45.947Z"
+  }
+]

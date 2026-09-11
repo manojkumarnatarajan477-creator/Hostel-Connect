@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ann-curfew-001",
+    "title": "Hostel Gate Curfew & Biometric Sign-in Notice",
+    "content": "All student residents must be inside the hostel premises by 9:30 PM. Late arrivals will be logged automatically via biometric scanners and escalated to the Chief Warden desk.",
+    "category": "Curfew & Security",
+    "is_pinned": true,
+    "target_block": "All Blocks",
+    "author_id": "usr-warden-001",
+    "author_name": "Dr. K. Raman (Chief Warden)",
+    "created_at": "2026-09-11T07:49:43.000Z",
+    "time": "3 hours ago"
+  },
+  {
+    "id": "ann-wifi-002",
+    "title": "Hostel Wi-Fi Infrastructure Upgrade & Router Maintenance",
+    "content": "Scheduled routine maintenance on Block A and Block B primary network switches tonight between 01:00 AM - 03:00 AM. High-speed 5GHz bands will be upgraded.",
+    "category": "Maintenance",
+    "is_pinned": true,
+    "target_block": "All Blocks",
+    "author_id": "usr-warden-001",
+    "author_name": "Chief Warden Desk",
+    "created_at": "2026-09-10T16:49:43.000Z",
+    "time": "18 hours ago"
+  },
+  {
+    "id": "ann-1789124319380-test",
+    "title": "DISUSSION ABOUT HOSTEL FEST",
+    "content": "ALL FIRST YEARS SHOULD GATHER AT 8:30 PM",
+    "category": "General Notice",
+    "is_pinned": false,
+    "target_block": "All Blocks",
+    "author_id": "warden-admin",
+    "author_name": "Dr.Tamilarasan",
+    "created_at": "2026-09-11T10:58:39.380Z",
+    "time": "Just now"
+  },
+  {
+    "id": "ann-mess-003",
+    "title": "Weekend Mess Special Dinner Notice",
+    "content": "Sunday Dum Biryani with Veg Paneer Biryani alternative will be served from 12:30 PM to 02:30 PM in the Central Dining Hall. Please submit any meal preference queries early.",
+    "category": "Mess Committee",
+    "is_pinned": false,
+    "target_block": "All Blocks",
+    "author_id": "usr-warden-001",
+    "author_name": "Mess Committee & Warden Office",
+    "created_at": "2026-09-09T22:49:43.000Z",
+    "time": "Yesterday"
+  }
+]
