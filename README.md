@@ -78,69 +78,9 @@ The platform supports persistent data storage using:
 
 ## 📂 Project Structure
 
-```TECH EVENT PROJECT/
-├── app/
-│   ├── (auth)/                 # Authentication login & registration flows
-│   ├── api/                    # RESTful Next.js Route Handlers
-│   │   ├── ai/                 # AI Q&A inference endpoint
-│   │   ├── announcements/      # Warden broadcast & notice creation
-│   │   ├── auth/               # Session & profile verification
-│   │   ├── complaints/         # Complaint ticket submissions & updates
-│   │   ├── leave/              # Leave creation, approval, and rejection
-│   │   ├── lost-found/         # Lost & found community posts
-│   │   ├── medical/            # Medical & emergency assistance
-│   │   ├── mess/               # Mess menu retrieval & meal feedback
-│   │   ├── notifications/      # Real-time user alert streams
-│   │   ├── parcels/            # Parcel arrivals & OTP collection verification
-│   │   ├── requests/           # Universal multi-action request engine
-│   │   └── stats/              # Warden administrative statistics
-│   ├── student/                # Student Portal Pages
-│   │   ├── ai/                 # Hostel AI chat assistant
-│   │   ├── complaints/         # Maintenance ticket desk
-│   │   ├── dashboard/          # Student home & daily status
-│   │   ├── leave/              # Outpass application & digital passes
-│   │   ├── lost-found/         # Lost & found board
-│   │   ├── medical/            # Medical help & sick diet room requests
-│   │   ├── mess/               # Saveetha weekly menu & reviews
-│   │   ├── notifications/      # Noticeboard announcements
-│   │   └── parcels/            # Courier tracker & OTP card
-│   ├── warden/                 # Warden Control Tower Pages
-│   │   ├── announcements/      # Broadcast composer & circular archive
-│   │   ├── complaints/         # Maintenance triage & assignment
-│   │   ├── dashboard/          # Command center with quick metrics & action bars
-│   │   ├── leave/              # Outpass approval terminal
-│   │   ├── lost-found/         # Moderated lost items registry
-│   │   ├── medical/            # Medical triage & maid room delivery assignment
-│   │   ├── parcels/            # Courier intake logger & OTP handover
-│   │   └── students/           # Resident directory & room lookup
-│   ├── globals.css             # Tailwind CSS tokens & color schemes
-│   ├── layout.tsx              # Root HTML wrapper & fonts
-│   └── page.tsx                # Landing & portal redirect hub
-├── components/
-│   ├── ai/                     # ChatWindow, ChatMessage, Quick prompts
-│   ├── complaints/             # ComplaintCard, ComplaintForm, StatusBadge
-│   ├── dashboard/              # MetricCards, ActivityFeed, QuickActions
-│   ├── layout/                 # Navbar, Sidebar, RoleNav, Footer
-│   ├── leave/                  # LeaveForm, LeaveStatusCard, DigitalGatePass
-│   ├── mess/                   # MessTimings, DaySelector, MealCard
-│   └── ui/                     # Button, Badge, Modal, Input primitives
-├── lib/
-│   ├── ai.ts                   # Hostel AI engine & meal remembrance algorithm
-│   ├── auth.ts                 # Role-based session management
-│   ├── messData.ts             # Saveetha Academic Hostel August 2026 cyclical menu
-│   ├── permissions.ts          # RBAC enforcement logic
-│   ├── utils.ts                # Date formatting, OTP generator, class merger
-│   └── supabase/               # Supabase browser, server, and client configs
-├── scratch/                    # Automated integration & verification test suites
-│   ├── test-all-user-requirements.mjs
-│   └── test-timings.mjs
-├── supabase/
-│   ├── schema.sql              # 14-table database schema with RLS & indexes
-│   └── seed.sql                # Seed data for demo students, wardens, menus & rules
-├── .env.example                # Template for environment configuration
-├── package.json                # Project dependencies and npm scripts
-├── tsconfig.json               # TypeScript compiler rules
-└── README.md                   # Complete platform documentation
+```## 📁 Project Directory
+
+```
 ```
 
 ## ⚙️ Getting Started
